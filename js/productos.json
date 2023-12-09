@@ -1,0 +1,134 @@
+
+[
+    {
+        "id": "michimio-01",
+        "titulo": "Michi 01",
+        "imagen": "../multimedia/michimio/01.jpg",
+        "categoria": {
+            "nombre": "michimio",
+            "id": "michimio"
+        },
+        "precio": 6342
+    },
+    
+    {
+        "id": "michimio-02",
+        "titulo": "Michi 02",
+        "imagen": "../multimedia/michimio/02.jpg",
+        "categoria": {
+            "nombre": "michimio",
+            "id": "michimio"
+        },
+        "precio": 3723
+    },
+    
+    {
+        "id": "michimio-03",
+        "titulo": "Michi 03",
+        "imagen": "../multimedia/michimio/03.jpg",
+        "categoria": {
+            "nombre": "michimio",
+            "id": "michimio"
+        },
+        "precio": 9023
+    },
+    
+    {
+        "id": "michimio-04",
+        "titulo": "Michi 04",
+        "imagen": "../multimedia/michimio/04.jpg",
+        "categoria": {
+            "nombre": "michimio",
+            "id": "michimio"
+        },
+        "precio": 1289
+    },
+    
+    {
+        "id": "michival-01",
+        "titulo": "Michi 01",
+        "imagen": "../multimedia/michival/01.jpg",
+        "categoria": {
+            "nombre": "michival",
+            "id": "michival"
+        },
+        "precio": 6342
+    },
+    
+    {
+        "id": "michival-02",
+        "titulo": "Michi 02",
+        "imagen": "../multimedia/michival/02.jpg",
+        "categoria": {
+            "nombre": "michival",
+            "id": "michival"
+        },
+        "precio": 3723
+    },
+    
+    {
+        "id": "michival-03",
+        "titulo": "Michi 03",
+        "imagen": "../multimedia/michival/03.jpg",
+        "categoria": {
+            "nombre": "michival",
+            "id": "michival"
+        },
+        "precio": 9023
+    },
+    
+    {
+        "id": "michival-04",
+        "titulo": "Michi 04",
+        "imagen": "../multimedia/michival/04.jpg",
+        "categoria": {
+            "nombre": "michival",
+            "id": "michival"
+        },
+        "precio": 1289
+    },
+    
+    {
+        "id": "michiotro-01",
+        "titulo": "Michi 01",
+        "imagen": "../multimedia/michiotro/01.jpg",
+        "categoria": {
+            "nombre": "michiotro",
+            "id": "michiotro"
+        },
+        "precio": 6342
+    },
+    
+    {
+        "id": "michiotro-02",
+        "titulo": "Michi 02",
+        "imagen": "../multimedia/michiotro/02.jpg",
+        "categoria": {
+            "nombre": "michiotro",
+            "id": "michiotro"
+        },
+        "precio": 3723
+    },
+    
+    {
+        "id": "michiotro-03",
+        "titulo": "Michi 03",
+        "imagen": "../multimedia/michiotro/03.jpg",
+        "categoria": {
+            "nombre": "michiotro",
+            "id": "michiotro"
+        },
+        "precio": 9023
+    },
+    
+    {
+        "id": "michiotro-04",
+        "titulo": "Michi 04",
+        "imagen": "../multimedia/michiotro/04.jpg",
+        "categoria": {
+            "nombre": "michiotro",
+            "id": "michiotro"
+        },
+        "precio": 1289
+    }
+]

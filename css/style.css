@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --clr-main: #fd8b8b;
+    --clr-main-light: #eebbbb;
+    --clr-white: #efefef;
+    --clr-gray: #dfdfdf;
+    --clr-red: #a80909;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, input, textarea {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+body{
+  background-color: var(--clr-main);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+header{
+display: inline;
+}
+
+header div .fondoNav {
+  background-color: var(--clr-main) !important;
+}
+.logo{
+  color: var(--clr-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.botonMenu{
+  background-color: transparent;
+  border: 0;
+  color: var(--clr-white);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+
+}
+
+.botonMenu.active{
+  background-color: var(--clr-white);
+  color: var(--clr-main);
+  width: 100%;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.botonCarrito{
+  margin-top: 10%;
+}
+
+.contador{
+  background-color: var(--clr-white);
+  color: var(--clr-main);
+  padding: 0.15rem 0.5rem ;
+  border-radius: 0.25rem;
+}
+.botonCarrito.active .contador{
+  background-color: var(--clr-main);
+  color: var(--clr-white);
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+.footercarrito{
+  position:sticky; 
+  bottom:0; 
+  left:0; 
+}
+.textoFooter{
+  color: var(--clr-main-light);
+  font-size: 0.85rem;
+}
+
+main{
+  background-color: var(--clr-white);
+  margin: 1rem;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+.tituloPrincipal{
+  color: var(--clr-main);
+  margin-bottom: 2rem;
+}
+.contenedorProducts{
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+.imgProducto{
+  max-width:100%;
+  border-radius:  1rem;
+}
+.infoProducto{
+  background-color: var(--clr-main);
+  color: var(--clr-white);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-top: -2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+}
+.tituloProducto{
+  font-size: 1rem;
+}
+.botonProducto{
+  border: 0;
+  background-color: var(--clr-white);
+  color: var(--clr-main);
+  padding: .5;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: 2px solid var(--clr-white);
+  transition: 0.3s ease;
+}
+.botonProducto:hover{
+  background-color: var(--clr-main);
+  color:var(--clr-white)
+  
+}
+
+
+.contenedorCarrito{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.carritoVacio, .carritoComprado{
+  color: var(--clr-main);
+
+}
+
+.carritoProductos{
+  display: flex;
+  flex-direction: column ;
+  gap: 1rem;
+}
+
+.carritoProducto{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: var(--clr-gray);
+color: var(--clr-main);
+padding-inline-start: 0.5rem;
+padding-right: 1.5rem;
+border-radius: 1rem;
+}
+
+.carritoProductoImg{
+width: 4rem;
+border-radius: 1rem;
+}
+
+.letraChica{
+  font-size: 0.75rem;
+}
+
+.carritoProductoBorrar{
+  border: 0;
+  background-color: transparent;
+  color:var(--clr-red);
+  cursor: pointer;
+}
+
+.carritoAcciones{
+  display: flex;
+  justify-content: space-between;
+}
+
+.botonVaciar{
+border: 0;
+background-color: var(--clr-gray);
+padding: 1rem;
+border-radius: 1rem;
+color: var(--clr-main);
+text-transform: uppercase;
+}
+
+.botonComprar{
+  border: 0;
+  background-color: var(--clr-main);
+  padding: 1rem;
+  border-top-right-radius:1rem;
+  border-bottom-right-radius:1rem;
+  color: var(--clr-gray);
+  text-transform: uppercase;
+}
+
+.carritoAccionComprar{
+  display: flex;
+}
+
+.carritoAccionesTotal{
+display: flex;
+background-color: var(--clr-gray);
+padding: 1rem;
+border-top-left-radius:1rem;
+border-bottom-left-radius:1rem;
+color: var(--clr-main);
+text-transform: uppercase;
+
+}
+
+.disabled{
+  display: none;
+}
+
+
+
+
+
+
